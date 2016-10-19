@@ -1,2 +1,2 @@
 # akka-http-sample
-Restful microservice api sample using Akka-http 
+Restful Microservice API samples using Akka-http 
