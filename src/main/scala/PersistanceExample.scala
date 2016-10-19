@@ -18,6 +18,7 @@ object ServiceJsonProtoocol extends DefaultJsonProtocol {
   implicit val persformat = jsonFormat3(Person.apply)
 }
 //Object to create a restful api to persist and extract person data
+//Run this object and goto http://localhost:9000/person to test this API (Use GET/POST to extrat/insert person).
 object PersistanceExample {
   def main(args: Array[String]) {
 
